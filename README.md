@@ -5,14 +5,14 @@ A node module for determining the tile-xy of a point across multiple zoom levels
 ## Usage 
 
 ```
-npm install tile-pixels
+npm install tile-pixel
 ```
 
 ```javascript
-var tilePixels = require('tile-pixels')
+var tilePixel = require('tile-pixel')
 
 // takes in lat, lon, minz, maxz, callback
-tilePixels(-104, 40, 0, 10, function (err, pixels) {
+tilePixel(-104, 40, 0, 10, function (err, pixels) {
   console.log(err, pixels)
   /*
   { '0': { tile: [ 0, 0, 0 ], px: 54, py: 67 },
