@@ -1,0 +1,24 @@
+{
+  "name": "tile-pixel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Chris Helm",
+  "license": "ISC",
+  "dependencies": {
+    "tilebelt": "^0.7.1"
+  },
+  "devDependencies": {
+    "standard": "^3.2.0",
+    "tap-spec": "^2.2.2",
+    "tape": "^3.5.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chelm/tile-pixel.git"
+  },
+  "scripts": {
+    "test": "standard && node test | tap-spec"
+  }
+}
